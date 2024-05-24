@@ -17,9 +17,3 @@ with open('douban.csv', 'r') as csvfile:
     Reindex = pd.Series(Reindex, index=df.index)
     df.rename(Reindex,inplace=True)
     print(df["新电影?"])
-
-#hello ha github 
-#push again
-'''
-did you change
-'''
